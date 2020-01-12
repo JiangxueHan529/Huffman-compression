@@ -1,0 +1,27 @@
+Name:Jiangxue Han
+Assignment8
+Program files:
+Tmain.c
+Tmain2.c
+huff_tree.c
+Header:
+huff_tree.h
+
+Scripting file: session
+
+To compile, type in make
+And to compress, type in ./huff inputfile outputfile, where input file is the file to be compressed and outputfile is the compressed code.
+To decompress, type int ./puff outputfile puffedfile, where outputfile is the file from compressor and puffed file is the decoded text
+Then type in make clean (if you want to clear compiled files)
+
+I have a few examples of inputs and outputs in the folder for testing purposes,
+and I made a script illustrating some of them: in the assignment guide it's
+stated that we should have a script illustrate all of the app functions, which I
+think doesn't make sense and must be from last assignment, so I just scripted
+for a few examples.
+
+I did the extra credit part of using a binary min heap.
+
+Known bugs and deficiencies:
+My code does not handle the leftover bits very well and sometimes there are
+more characters at the end, but Geoff indicated that this is ok.
